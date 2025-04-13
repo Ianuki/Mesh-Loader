@@ -117,7 +117,7 @@ document.getElementById("input").addEventListener("change", function (event) {
 
   reader.onload = function (event) {
     vertices.length = 0;
-    vertices.length = 0;
+    triangles.length = 0;
 
     let array_buffer = event.target.result;
     let array = new Uint8Array(array_buffer);
